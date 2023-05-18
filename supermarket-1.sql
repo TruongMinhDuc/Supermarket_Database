@@ -64,9 +64,9 @@ CREATE TABLE `cashier` (
 --
 
 INSERT INTO `cashier` (`cashier_id`, `name`, `email`, `phone`, `address`) VALUES
-(1, 'Đỗ Minh Đức', 'dominhduc@gmail.com', '0338671587', 'Cầu Giấy - Hà Nội'),
-(2, 'Trương Minh Đức', 'truongminhduc@gmail.com', '0165273187', 'Nam Từ Liêm - Hà Nội'),
-(3, 'Phùng Huy Hoàng', 'phunghuyhoang@gmail.com', '01675243836', 'Cầu Giấy - Hà Nội');
+(1, 'Do Minh Duc', 'dominhduc@gmail.com', '0338671587', 'Cau Giay - Ha Noi'),
+(2, 'Truong Minh Duc', 'truongminhduc@gmail.com', '0165273187', 'Nam Tu Liem - Ha Noi'),
+(3, 'Phung Huy Hoang', 'phunghuyhoang@gmail.com', '01675243836', 'Cau Giay - Ha Noi');
 
 -- --------------------------------------------------------
 
@@ -87,11 +87,11 @@ CREATE TABLE `customer` (
 --
 
 INSERT INTO `customer` (`customer_id`, `name`, `email`, `phone`, `address`) VALUES
-(1, 'Phạm Văn Đồng', 'phamvandong@gmail.com', '0123456789', 'Cầu Giấy - Hà Nội'),
-(2, 'Lê Xuân Tài', 'lexuantai@gmail.com', '9875463210', 'Hoàng Mai-Hà Nội'),
-(3, 'Nguyễn Thị Kim', 'nguyenthikim@gmail.com', '8877665500', 'Thanh Xuân - Hà Nội'),
-(4, 'Nguyễn Văn Phương', 'nguyenvanphuong@gmail.com', '1023456789', 'Hà Đông - Hà Nội'),
-(5, 'Đỗ Minh Anh', 'dominhanh@gmail.com', '0165524338', 'Ba Đình - Hà Nội');
+(1, 'Pham Van Dong', 'phamvandong@gmail.com', '0123456789', 'Cau Giay - Ha Noi'),
+(2, 'Le Xuan Tai', 'lexuantai@gmail.com', '9875463210', 'Hoang Mai - Ha Noi'),
+(3, 'Nguyen Thi Kim', 'nguyenthikim@gmail.com', '8877665500', 'Thanh Xuan - Ha Noi'),
+(4, 'Nguyen Van Phuong', 'nguyenvanphuong@gmail.com', '1023456789', 'Ha Dong - Ha Noi'),
+(5, 'Do Minh Anh', 'dominhanh@gmail.com', '0165524338', 'Ba Dinh - Ha Noi');
 
 -- --------------------------------------------------------
 
@@ -113,9 +113,9 @@ CREATE TABLE `goods` (
 --
 
 INSERT INTO `goods` (`goods_id`, `goods_name`, `goods_cost`, `amount`, `MFG`, `EXP`) VALUES
-(1, 'nước xả vải', 320000, 100, '2023-05-03', '2026-05-03'),
-(2, 'nước rửa bát', 50000, 120, '2023-01-01', '2026-01-01'),
-(3, 'mì tôm hảo hảo', 3500, 500, '2023-03-03', '2024-03-03');
+(1, 'nuoc xa vai', 320000, 100, '2023-05-03', '2026-05-03'),
+(2, 'nuoc rua bat', 50000, 120, '2023-01-01', '2026-01-01'),
+(3, 'mi tom hao hao', 3500, 500, '2023-03-03', '2024-03-03');
 
 -- --------------------------------------------------------
 
